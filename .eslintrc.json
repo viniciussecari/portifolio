@@ -39,6 +39,7 @@
         "ignoreRegExpLiterals": false,
         "ignoreHTMLAttributeValues": false,
         "ignoreHTMLTextContents": false
-    }]
+    }],
+    "vue/html-indent": "off"
   }
 }

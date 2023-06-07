@@ -1,9 +1,9 @@
 <template>
-  <div>
-    <h1></h1>
-  </div>
+  <experiences-section />
 </template>
 
-<script setup></script>
+<script setup>
+import ExperiencesSection from './ExperiencesSection.vue';
+</script>
 
 <style></style>
