@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .link__box {
+    @apply flex items-center my-2 p-1 bg-black rounded ease-in duration-300 shadow hover:transition-shadow hover:shadow-lg hover:shadow-cyan-500/50;
+  }
+}
