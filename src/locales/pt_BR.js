@@ -1,5 +1,6 @@
 export const pt_BR = {
   profile: {
+    createdBy: 'Feito por: Vinicius Secari',
     position: 'Desenvolvedor FrontEnd',
   },
   sections: {
@@ -10,8 +11,9 @@ export const pt_BR = {
     skills: {
       title: 'Habilidades',
     },
-  },
-  message: {
-    hello: 'Olá',
+    education: {
+      college: 'Formação',
+      courses: 'Cursos',
+    },
   },
 };
