@@ -1,3 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .link__box {
+    @apply flex items-center my-2 p-1 bg-black rounded ease-in duration-300 shadow hover:transition-shadow hover:shadow-lg hover:shadow-cyan-500/50;
+  }
+}
+
+@layer components {
+  .tool {
+    @apply py-1 px-2 m-1 font-bold border rounded flex items-center justify-center transition-colors hover:animate-bounce;
+  }
+}
+
+@layer components {
+  .skill__box {
+    @apply font-mono flex items-center py-8 px-4 flex-col my-4 mx-4 h-96 w-80 border rounded-xl border-white shadow duration-1000 hover:transition-shadow hover:shadow-md hover:shadow-cyan-500/50 hover:scale-105;
+  }
+}
+
 :root {
   line-height: 1.5;
 
