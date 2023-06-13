@@ -1,9 +1,11 @@
 <template>
-  <experiences-section />
+  <skills />
+  <divider />
+  <experiences />
 </template>
 
 <script setup>
-import ExperiencesSection from './ExperiencesSection.vue';
+import Skills from './Skills.vue';
+import Divider from './Divider.vue';
+import Experiences from './Experiences.vue';
 </script>
-
-<style></style>

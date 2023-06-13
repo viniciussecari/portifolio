@@ -14,14 +14,15 @@
     </div>
 
     <div class="flex flex-wrap mt-2">
-      <tools v-for="tool in props.item.tools" :key="tool" :tool="tool" />
+      <tool v-for="tool in props.item.tools" :key="tool" :tool="tool" />
     </div>
   </div>
 </template>
 
 <script setup>
 import { defineProps } from 'vue';
-import Tools from './Tools.vue';
+import Tool from './Tool.vue';
+
 
 const props = defineProps({
   item: {
