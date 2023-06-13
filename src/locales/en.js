@@ -1,5 +1,6 @@
 export const en = {
   profile: {
+    createdBy: 'Made by: Vinicius Secari',
     position: 'FrontEnd Developer',
   },
   sections: {
@@ -10,8 +11,9 @@ export const en = {
     skills: {
       title: 'Skills',
     },
-  },
-  message: {
-    hello: 'Hello',
+    education: {
+      college: 'Education',
+      courses: 'Courses',
+    },
   },
 };

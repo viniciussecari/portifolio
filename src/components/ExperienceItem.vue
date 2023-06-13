@@ -20,9 +20,7 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue';
 import Tool from './Tool.vue';
-
 
 const props = defineProps({
   item: {

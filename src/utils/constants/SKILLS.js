@@ -24,6 +24,18 @@ export const SKILLS = [
     icon: 'src/assets/icons/js.svg',
   },
   {
+    title: 'Jest',
+    description: `Jest é uma estrutura de teste de JavaScript 
+    construída sobre o Jasmine e mantida pela Meta.`,
+    icon: 'src/assets/icons/jest.svg',
+  },
+  {
+    title: 'Cypress',
+    description: `Cypress é uma ferramenta de teste de front-end 
+    para aplicativos da web.`,
+    icon: 'src/assets/icons/cypress.svg',
+  },
+  {
     title: 'Git',
     description: `Git é um sistema de controle de versões distribuído, 
     usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o
