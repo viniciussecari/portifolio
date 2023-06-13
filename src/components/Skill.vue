@@ -2,7 +2,7 @@
   <div class="entrance_colors skill__box box">
     <img
       class="bg-cover w-20 h-20 mb-10"
-      src="../assets/icons/js.svg"
+      :src="props.item.icon"
       :alt="`${props.item.title}-icon`" />
 
     <div>
