@@ -1,9 +1,11 @@
 <template>
-  <div>
-    <h1></h1>
-  </div>
+  <skills />
+  <divider />
+  <experiences />
 </template>
 
-<script setup></script>
-
-<style></style>
+<script setup>
+import Skills from './Skills.vue';
+import Divider from './Divider.vue';
+import Experiences from './Experiences.vue';
+</script>
