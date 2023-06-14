@@ -10,7 +10,7 @@
         </span>
       </div>
 
-      <h3>{{ props.item.desc }}</h3>
+      <h3 class="sm:text-sm text-base">{{ props.item.desc }}</h3>
     </div>
 
     <div class="flex flex-wrap mt-2">

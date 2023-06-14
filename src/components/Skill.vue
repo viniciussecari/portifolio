@@ -26,4 +26,10 @@ const props = defineProps({
   min-width: 20rem;
   min-height: 20rem;
 }
+
+@media (max-width: 640px) {
+  .box {
+    min-width: 19rem;
+  }
+}
 </style>
