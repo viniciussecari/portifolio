@@ -1,5 +1,5 @@
 <template>
-  <div class="my-4 w-6/12 flex justify-between items-start flex-col">
+  <div class="my-4 w-full md:w-6/12 flex justify-between items-start flex-col">
     <div>
       <div class="my-2">
         <h2 class="mb-2 font-light text-2xl">{{ props.item.title }}</h2>
