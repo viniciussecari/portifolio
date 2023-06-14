@@ -1,12 +1,14 @@
-
 import js from '../../assets/icons/js.svg';
 import git from '../../assets/icons/git.svg';
 import vue from '../../assets/icons/vue.svg';
+import sass from '../../assets/icons/sass.svg';
 import code from '../../assets/icons/code.svg';
 import jest from '../../assets/icons/jest.svg';
 import css_3 from '../../assets/icons/css-3.svg';
 import html_5 from '../../assets/icons/html-5.svg';
 import cypress from '../../assets/icons/cypress.svg';
+import node_js from '../../assets/icons/node-js.svg';
+import tailwindcss from '../../assets/icons/tailwind-css.svg';
 
 export default [
   {
@@ -28,10 +30,28 @@ export default [
     icon: css_3,
   },
   {
+    title: 'SASS',
+    description: `O SASS é uma linguagem de extensão do CSS, a sigla 
+    significa “Syntactically Awesome Style Sheets”, folhas de estilo com uma sintaxe incrível.`,
+    icon: sass,
+  },
+  {
+    title: 'TailwindCSS',
+    description: 'Tailwind CSS é uma estrutura CSS de código aberto.',
+    icon: tailwindcss,
+  },
+  {
     title: 'JS',
     description: `JavaScript é uma linguagem de programação interpretada estruturada, 
         de script em alto nível com tipagem dinâmica fraca e multiparadigma.`,
     icon: js,
+  },
+  {
+    title: 'NodeJs',
+    description: `Node.js é um software de código aberto, multiplataforma, 
+    baseado no interpretador V8 do Google e que permite a execução de códigos 
+    JavaScript fora de um navegador web.`,
+    icon: node_js,
   },
   {
     title: 'Jest',
