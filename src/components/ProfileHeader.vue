@@ -3,7 +3,8 @@
     <span class="profile__photo mb-4 w-36 h-36 rounded-full" />
 
     <h1 class="font-bold text-xl">Vinicius Santana Secari</h1>
-    <h2>{{ $t('profile.position') }}</h2>
+
+    <profile-contacts />
 
     <profile-links />
   </div>
@@ -11,6 +12,7 @@
 
 <script setup>
 import ProfileLinks from './ProfileLinks.vue';
+import ProfileContacts from './ProfileContacts.vue';
 </script>
 
 <style scoped>
