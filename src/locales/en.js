@@ -4,7 +4,7 @@ export const en = {
     position: 'FrontEnd Developer',
     location: 'Sao Paulo - Brazil',
     phone: '+55 11 98902-1001',
-    email: 'viniciusecari987@gmail.com',
+    email: '{account}{\'@\'}{domain}',
   },
   sections: {
     experiences: {
