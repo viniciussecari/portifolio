@@ -4,11 +4,16 @@
     <h2>{{ $t('profile.location') }}</h2>
     <h2
       class="px-2 hover:transition-shadow hover:shadow-lg hover:shadow-cyan-500/50">
-      <a href="+5511989021001">{{ $t('profile.phone') }}</a>
+      <a href="tel:+5511989021001">{{ $t('profile.phone') }}</a>
     </h2>
     <h2
       class="px-2 hover:transition-shadow hover:shadow-lg hover:shadow-cyan-500/50">
-      <a href="mailto:viniciussecari987@gmail.com">{{ $t('profile.email', { account: 'vinicussecari987', domain: 'gmail.com' }) }}</a>
+      <a href="mailto:viniciussecari987@gmail.com">{{
+        $t('profile.email', {
+          account: 'vinicussecari987',
+          domain: 'gmail.com',
+        })
+      }}</a>
     </h2>
   </div>
 </template>
