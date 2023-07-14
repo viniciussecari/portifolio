@@ -4,7 +4,7 @@ export const pt_BR = {
     position: 'Desenvolvedor FrontEnd',
     location: 'São Paulo - Brasil',
     phone: '+55 11 98902-1001',
-    email: 'viniciusecari987@gmail.com',
+    email: '{account}{\'@\'}{domain}',
   },
   sections: {
     experiences: {
