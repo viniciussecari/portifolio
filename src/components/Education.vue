@@ -6,11 +6,11 @@
 
     <div class="my-2">
       <h2 class="mb-2 font-light text-2xl">
-        Universidade Presbiteriana Mackenzie
+        {{ $t('education.college.title') }}
       </h2>
-      <h3>Análise e desenvolvimento de Sistemas</h3>
+      <h3>{{ $t('education.college.gradutation') }}</h3>
 
-      <span class="font-serif"> ago de 2021 - dez de 2023 </span>
+      <span class="font-serif"> 08/2021 - 06/2024 </span>
     </div>
 
     <div class="my-2">

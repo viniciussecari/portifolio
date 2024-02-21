@@ -10,7 +10,9 @@
         </span>
       </div>
 
-      <h3 class="sm:text-sm text-base">{{ props.item.desc }}</h3>
+      <h3 class="sm:text-sm text-base">
+        {{ $t(`experiences.${formatTitle(props.item.title)}`) }}
+      </h3>
     </div>
 
     <div class="flex flex-wrap mt-2">
@@ -28,4 +30,12 @@ const props = defineProps({
     default: () => {},
   },
 });
+
+const formatTitle = (title) => {
+  return title
+    .split('')
+    .filter((el) => el !== ' ')
+    .join('')
+    .toLowerCase();
+};
 </script>

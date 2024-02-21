@@ -26,6 +26,21 @@ export const en = {
   locales: {
     choose: 'Choose a language',
   },
+  education: {
+    college: {
+      title: 'Mackenzie Presbiterian University',
+      gradutation: 'Analysis and systems development',
+    },
+  },
+  experiences: {
+    confidential: `Developing new features and solving bugs using Vue, Vuetify, 
+    Storybook, ElasticSearch, Jest and Echart as main tools.`,
+    farmtech: `I've worked developing features and fixing bugs using Vue.Js, 
+    creating unit tests with Jest, end-to-end testing with Cypress.io, and creating components.`,
+    inking: `I worked creating new features, solving bugs and creating components with Vue.Js,
+     developing APIs in Java (SpringBoot) and maintaining / updating the database in MySQL 
+     and also occasionally conducting UI and UX discussions.`,
+  },
   skills: {
     html: {
       title: 'HTML',
