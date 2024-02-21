@@ -19,4 +19,69 @@ export const en = {
       courses: 'Courses',
     },
   },
+  countries: {
+    usa: 'English',
+    pt: 'Portuguese',
+  },
+  locales: {
+    choose: 'Choose a language',
+  },
+  skills: {
+    html: {
+      title: 'HTML',
+      description: 'HTML is a markup language used to build web pages.',
+    },
+    css: {
+      title: 'CSS',
+      description: `Cascading Style Sheets is a mechanism for adding styles to a web page,
+      applied directly to HTML tags or contained within <style> tags.`,
+    },
+    vuejs: {
+      title: 'Vue JS',
+      description: `Vue.js is an open-source JavaScript framework,
+      focused on developing user interfaces and single page applications`,
+    },
+    sass: {
+      title: 'SASS',
+      description: `SASS is a CSS extension language, the acronym
+      stands for “Syntactically Awesome Style Sheets”, style sheets with incredible syntax.`,
+    },
+    tailwindcss: {
+      title: 'TailwindCSS',
+      description: 'Tailwind CSS is an open source CSS framework.',
+    },
+    js: {
+      title: 'JS',
+      description: `JavaScript is a structured interpreted programming language,
+      high-level scripting with weak, multi-paradigm dynamic typing.`,
+    },
+    nodejs: {
+      title: 'NodeJs',
+      description: `Node.js is open source, cross-platform,
+      based on Google's V8 interpreter and which allows the execution of codes
+      JavaScript outside of a web browser.`,
+    },
+    jest: {
+      title: 'Jest',
+      description: `Jest is a JavaScript testing framework
+      built on Jasmine and maintained by Meta.`,
+    },
+    cypress: {
+      title: 'Cypress',
+      description: `Cypress is a front-end testing tool
+      for web applications.`,
+    },
+    git: {
+      title: 'Git',
+      description: `Git is a distributed version control system,
+      mainly used in software development, but can be used to record the
+      edit history of any type of file.`,
+    },
+    cleancode: {
+      title: 'Clean Code',
+      description: `Clean Code refers to a set of good practices in
+      writing software that you can apply to achieve greater readability
+      and maintainability of your code.`,
+    },
+  },
 };

@@ -1,16 +1,26 @@
-import { createApp } from 'vue';
-import { createI18n } from 'vue-i18n';
-import App from './App.vue';
 import './style.css';
-import { pt_BR } from './locales/pt_BR.js';
+import App from './App.vue';
+import { createApp } from 'vue';
 import { en } from './locales/en.js';
+import { createI18n } from 'vue-i18n';
+import { pt_BR } from './locales/pt_BR.js';
 
-const languages = { pt_BR, en };
+let language = window.navigator.language;
+language =
+  language === 'pt-PT' || language === 'pt' || language === 'pt-BR'
+    ? 'pt_BR'
+    : 'en';
+
+if (language === 'pt-PT' || !localStorage.getItem('language')) {
+  localStorage.setItem('language', language);
+}
+
+const lang = localStorage.getItem('language');
 
 const i18n = createI18n({
-  locale: 'pt_BR',
-  fallbackLocale: 'pt_BR',
-  messages: languages,
+  locale: lang,
+  fallbackLocale: lang,
+  messages: { pt_BR, en },
 });
 
 createApp(App).use(i18n).mount('#app');

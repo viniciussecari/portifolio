@@ -6,8 +6,8 @@
       :alt="`${props.item.title}-icon`" />
 
     <div>
-      <h2>{{ props.item.title }}</h2>
-      <h3>{{ props.item.description }}</h3>
+      <h2>{{ $t(`skills.${formaTitle(props.item.title)}.title`) }}</h2>
+      <h3>{{ $t(`skills.${formaTitle(props.item.title)}.description`) }}</h3>
     </div>
   </div>
 </template>
@@ -19,6 +19,14 @@ const props = defineProps({
     default: () => {},
   },
 });
+
+const formaTitle = (title) => {
+  return title
+    .split('')
+    .filter((el) => el !== ' ')
+    .join('')
+    .toLowerCase();
+};
 </script>
 
 <style scoped>
