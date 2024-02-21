@@ -1,7 +1,7 @@
 <template>
   <div
-    class="header h-auto w-full flex justify-center items-center flex-col mt-8">
-    <div class="w-full flex items-center">
+    class="header h-auto w-full flex justify-center items-center flex-col lg:mt-8">
+    <div class="w-full flex lg:mb-0 mb-8 items-center">
       <switch-language />
     </div>
 
