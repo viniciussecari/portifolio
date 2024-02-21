@@ -5,15 +5,11 @@ import { en } from './locales/en.js';
 import { createI18n } from 'vue-i18n';
 import { pt_BR } from './locales/pt_BR.js';
 
-let language = window.navigator.language;
-language =
-  language === 'pt-PT' || language === 'pt' || language === 'pt-BR'
-    ? 'pt_BR'
-    : 'en';
+const regex = /^pt/;
+const language = regex.test(window.navigator.language) ? 'pt_BR' : 'en';
 
-if (language === 'pt-PT' || !localStorage.getItem('language')) {
+if (!localStorage.getItem('language'))
   localStorage.setItem('language', language);
-}
 
 const lang = localStorage.getItem('language');
 
