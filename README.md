@@ -1,7 +1,7 @@
-# Olá, me chamo Vinicius Santana Secari
+# HI, I'm Vinicius Santana Secari
 
-Esta é apenas uma versão inicial do meu <a href="https://portifolio-viniciussecari.vercel.app/">Portifólio</a>!
+This is just a starter version of my <a href="https://portifolio-viniciussecari.vercel.app/">Portifolio</a>!
 
-Projeto feito com VueJs 3, Vite, I18n e TailwindCSS.
+Project made with VueJs 3, Vite, I18n e TailwindCSS.
 
-Logo mais estarei atualizando com novas features e integrações. 😃
+Soon I wil update with more features and integrations. 😃
