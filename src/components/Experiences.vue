@@ -1,5 +1,5 @@
 <template>
-  <section class="flex items-center flex-col">
+  <section id="experiences" class="flex items-center flex-col scroll-smooth">
     <h1 class="mb-4 text-5xl font-light">
       {{ $t('sections.experiences.title') }}
     </h1>

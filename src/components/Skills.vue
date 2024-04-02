@@ -1,6 +1,6 @@
 <template>
-  <section class="flex items-center flex-col overflow-hidden">
-    <h1 class="mb-4 text-5xl font-light">
+  <section class="flex items-center flex-col overflow-hidden scroll-smooth">
+    <h1 class="mb-4 text-5xl font-light" id="skills">
       {{ $t('sections.skills.title') }}
     </h1>
 
