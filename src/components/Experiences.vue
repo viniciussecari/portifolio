@@ -1,5 +1,5 @@
 <template>
-  <section class="flex items-center flex-col">
+  <section id="experiences" class="flex items-center flex-col scroll-smooth">
     <h1 class="mb-4 text-5xl font-light">
       {{ $t('sections.experiences.title') }}
     </h1>
@@ -7,7 +7,8 @@
     <div
       class="w-full flex justify-center items-center flex-col"
       v-for="item in EXPERIENCES"
-      :key="`${item.title}-${item.initialDatetime}`">
+      :key="`${item.title}-${item.initialDatetime}`"
+    >
       <experience-item :item="item" />
     </div>
   </section>

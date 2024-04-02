@@ -14,8 +14,8 @@ if (!localStorage.getItem('language'))
 const lang = localStorage.getItem('language');
 
 const i18n = createI18n({
+  legacy: false,
   locale: lang,
-  fallbackLocale: lang,
   messages: { pt_BR, en },
 });
 
