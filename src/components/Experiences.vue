@@ -7,7 +7,8 @@
     <div
       class="w-full flex justify-center items-center flex-col"
       v-for="item in EXPERIENCES"
-      :key="`${item.title}-${item.initialDatetime}`">
+      :key="`${item.title}-${item.initialDatetime}`"
+    >
       <experience-item :item="item" />
     </div>
   </section>

@@ -3,7 +3,8 @@
     <img
       class="bg-cover w-20 h-20 mb-10"
       :src="props.item.icon"
-      :alt="`${props.item.title}-icon`" />
+      :alt="`${props.item.title}-icon`" 
+    />
 
     <div>
       <h2>{{ $t(`skills.${formatTitle(props.item.title)}.title`) }}</h2>

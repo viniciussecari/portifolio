@@ -6,31 +6,13 @@
   >
     <nav class="visible max-sm:hidden">
       <ul class="flex">
-        <li>
+        <li v-for="nav in navs" :key="nav.ref">
           <a 
             class="mx-2 header-button-vertical" 
-            href="#skills"
-            :data-text="`&nbsp;${$t('sections.skills.title')}&nbsp;`" 
+            :href="nav.ref"
+            :data-text="`&nbsp;${nav.title}&nbsp;`" 
           >
-            &nbsp;{{ $t('sections.skills.title') }}&nbsp;
-          </a>
-        </li>
-        <li>
-          <a 
-            class="mx-2 header-button-vertical" 
-            href="#experiences" 
-            :data-text="`&nbsp;${$t('sections.experiences.title')}&nbsp;`" 
-          >
-            &nbsp;{{ $t('sections.experiences.title') }}&nbsp;
-          </a>
-        </li>
-        <li>
-          <a 
-            class="mx-2 header-button-vertical" 
-            href="#education"
-            :data-text="`&nbsp;${$t('sections.education.college')}&nbsp;`" 
-          >
-            &nbsp;{{ $t('sections.education.college') }}&nbsp;
+            &nbsp;{{ nav.title }}&nbsp;
           </a>
         </li>
       </ul>
@@ -65,35 +47,21 @@
       class="visible md:hidden absolute top-16 left-0 h-screen w-screen z-50 
             flex justify-center items-center bg-black"
     >
-      <ul class="entrance_by_left w-full h-full p-2 relative flex flex-col gap-8">
-        <li class="my-2 relative list-none">
+      <ul 
+        class="entrance_by_left w-full h-full p-2 relative flex flex-col gap-8"
+      >
+        <li 
+          class="my-2 relative list-none"  
+          v-for="nav in navs"
+          :key="nav.ref"
+        >
           <a
             @click="setAnchor"
             class="mx-2 header-button-horizontal" 
-            href="#skills"
-            :data-text="`&nbsp;${$t('sections.skills.title')}&nbsp;`" 
+            :href="nav.ref"
+            :data-text="`&nbsp;${nav.title}&nbsp;`" 
           >
-            &nbsp;{{ $t('sections.skills.title') }}&nbsp;
-          </a>
-        </li>
-        <li class="my-2 relative list-none">
-          <a
-            @click="setAnchor"
-            class="mx-2 header-button-horizontal"
-            href="#experiences" 
-            :data-text="`&nbsp;${$t('sections.experiences.title')}&nbsp;`" 
-          >
-            &nbsp;{{ $t('sections.experiences.title') }}&nbsp;
-          </a>
-        </li>
-        <li class="my-2 relative list-none">
-          <a
-            @click="setAnchor"
-            class="mx-2 header-button-horizontal" 
-            href="#education"
-            :data-text="`&nbsp;${$t('sections.education.college')}&nbsp;`" 
-          >
-            &nbsp;{{ $t('sections.education.college') }}&nbsp;
+            &nbsp;{{ nav.title }}&nbsp;
           </a>
         </li>
       </ul>
@@ -105,9 +73,26 @@
 
 <script setup>
 import { ref } from 'vue';
+import { useI18n } from 'vue-i18n';
 import SwitchLanguage from './SwitchLanguage.vue';
 
 const toggleMenu = ref(false);
+const { t } = useI18n();
+
+const navs = ref([
+  {
+    ref: '#skills',
+    title: t('sections.skills.title')
+  },
+  {
+    ref: '#experiences',
+    title: t('sections.experiences.title')
+  },
+  {
+    ref: '#education',
+    title: t('sections.education.college')
+  }
+]);
 
 const setAnchor = () => {
   setTimeout(() => {
