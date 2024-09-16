@@ -3,7 +3,7 @@
     <div>
       <div class="my-2">
         <h2 class="mb-2 font-light text-2xl">{{ props.item.title }}</h2>
-        <h3>{{ props.item.position || '-' }}</h3>
+        <h3>{{ $t(`experiences.${formatTitle(props.item.title)}.position`) }}</h3>
         <span class="font-serif">
           {{ props.item.initialDatetime }} -
           {{ props.item.finalDatetime || $t('sections.experiences.now') }}
@@ -11,7 +11,7 @@
       </div>
 
       <h3 class="sm:text-sm text-base">
-        {{ $t(`experiences.${formatTitle(props.item.title)}`) }}
+        {{ $t(`experiences.${formatTitle(props.item.title)}.description`) }}
       </h3>
     </div>
 
