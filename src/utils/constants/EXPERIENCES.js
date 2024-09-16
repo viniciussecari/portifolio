@@ -1,14 +1,12 @@
 export const EXPERIENCES = [
   {
     title: 'Confidential',
-    position: 'Desenvolvedor FrontEnd Pleno',
     initialDatetime: '07/2022',
     finalDatetime: '',
     tools: ['VueJs', 'Vuetify', 'Vuex', 'VueRouter', 'Scrum', 'Agile', 'JSON'],
   },
   {
     title: 'FarmTech',
-    position: 'Desenvolvedor FrontEnd Júnior',
     initialDatetime: '07/2021',
     finalDatetime: '07/2022',
     tools: [
@@ -23,7 +21,6 @@ export const EXPERIENCES = [
   },
   {
     title: 'Inking',
-    position: 'Desenvolvedor de software FullStack júnior',
     initialDatetime: '09/2020',
     finalDatetime: '07/2021',
     tools: [

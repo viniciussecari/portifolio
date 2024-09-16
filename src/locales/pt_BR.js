@@ -33,14 +33,23 @@ export const pt_BR = {
     },
   },
   experiences: {
-    confidential: `Desenvolvendo novas features e resolvendo bugs utilizando Vue, Vuetify,
-     Storybook, ElasticSearch, Jest e Echart como ferramentes principais.`,
-    farmtech: `Trabalhei desenvolvendo recursos e resolvendo bugs usando o Vue.Js, 
-              criando testes unitários com o Jest,
-              testes de ponta a ponta com o Cypress.io e criando componentes.`,
-    inking: `Atuava criando novas features, resolução de bugs e criação de componentes com Vue.Js, 
-    desenvolvimento de APIS em Java(SpringBoot) e manutenção/atualização do banco de dados em MySQL
-     e também realizando ocasionalmente discussões de UI e UX.`,
+    confidential: {
+      description: `Desenvolvendo novas features e resolvendo bugs utilizando Vue, Vuetify,
+        Storybook, ElasticSearch, Jest e Echart como ferramentes principais.`,
+      position: 'Desenvolvedor FrontEnd Pleno',
+    },
+    farmtech: { 
+      description: `Trabalhei desenvolvendo recursos e resolvendo bugs usando o Vue.Js, 
+        criando testes unitários com o Jest,
+        testes de ponta a ponta com o Cypress.io e criando componentes.`,
+      position: 'Desenvolvedor FrontEnd Júnior',
+    },
+    inking: { 
+      description: `Atuava criando novas features, resolução de bugs e criação de componentes com Vue.Js, 
+        desenvolvimento de APIS em Java(SpringBoot) e manutenção/atualização do banco de dados em MySQL
+        e também realizando ocasionalmente discussões de UI e UX.`,
+     position: 'Desenvolvedor de software FullStack júnior',
+    },
   },
   skills: {
     html: {
