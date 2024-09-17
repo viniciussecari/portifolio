@@ -34,20 +34,70 @@ export const pt_BR = {
   },
   experiences: {
     confidential: {
-      description: `Desenvolvendo novas features e resolvendo bugs utilizando Vue, Vuetify,
-        Storybook, ElasticSearch, Jest e Echart como ferramentes principais.`,
+      description: `Soluções de análise preditiva, proativa e aumentada que oferecem visibilidade em tempo real e insights
+        sobre fluxos de dados complexos.
+        <div class="text-left mt-2">
+          <ul>
+            <li class="py-2">
+              ● Tenho trabalhado com o web squad, desenvolvendo funcionalidades que ajudam os clientes a obter
+              as informações que desejam de forma mais rápida e visualmente bem utilizando VueJS, Vuetify,
+              Vuex, VueRouter, Storybook, ElasticSearch e Jest para testes automatizados.
+            </li>
+            <li class="py-2">
+              ● Ajudando a manter a saúde dos projetos trazendo sempre novas ideias de como utilizar o
+              gerenciador de estados, arquitetura de projetos, aumentando a cobertura de testes com Jest e
+              melhores práticas.
+            </li>
+            <li class="py-2">
+              ● Implementei a arquitetura Vertical Slice em uma feature como POC (Proof of Concept) e logo em
+              seguida implementamos em todos os projetos FrontEnd do nosso squad.
+            </li>
+          </ul>
+        </div>
+      `,
       position: 'Desenvolvedor FrontEnd Pleno',
     },
     farmtech: { 
-      description: `Trabalhei desenvolvendo recursos e resolvendo bugs usando o Vue.Js, 
-        criando testes unitários com o Jest,
-        testes de ponta a ponta com o Cypress.io e criando componentes.`,
+      description: `Trabalhando com a digitalização do crédito do agronegócio por meio de processos simples, sem burocracia
+        e baseados na confiança entre os participantes da cadeia.
+        <div class="text-left mt-2">
+          <ul>
+            <li class="py-2">
+              ● Comecei minha jornada como estagiário, mas em 9 meses fui contratado como júnior por
+              apresentar ótimo desempenho, criando funcionalidades que resolveram problemas de otimização e
+              melhor aproveitamento de páginas com VueJS, Vuetify, Vuex e VueRouter.
+            </li>
+            <li class="py-2">
+              ● Depois de me tornar Junior, continuei com minha atuação, mas tendo mais responsabilidades com
+              UI/UX e cobertura de testes usando Jest. Além de auxiliar no processo de migração do projeto de
+              monólito para microsserviço.
+            </li>
+            <li class="py-2">
+              ● Iniciei o projeto de testes ponta a ponta da empresa usando Cypress e ensinei a equipe de QA como
+              usá-lo
+            </li>
+          </ul>
+        </div>
+      `,
       position: 'Desenvolvedor FrontEnd Júnior',
     },
     inking: { 
-      description: `Atuava criando novas features, resolução de bugs e criação de componentes com Vue.Js, 
-        desenvolvimento de APIS em Java(SpringBoot) e manutenção/atualização do banco de dados em MySQL
-        e também realizando ocasionalmente discussões de UI e UX.`,
+      description: `Uma startup que prestava serviços para FarmTech, com uma pequena equipe de desenvolvedores da qual
+        fiz parte.
+        <div class="text-left mt-2">
+          <ul>
+            <li class="py-2">
+              ● Criei um projeto de migração de dados, de um banco de dados SQLServer para um banco de dados
+              MySQL utilizando Java com SpringBoot.
+            </li>
+            <li class="py-2">
+              ● Cuidei sozinho de toda a área de crédito FarmTech, resolvendo bugs, criando funcionalidades e
+              tomando decisões UI/UX utilizando VueJs, Vuetify, Vuex e VueRouter para frontend e para backend
+              utilizando Java, SpringBoot, Swagger.
+            </li>
+          </ul>
+        </div>
+    `,
      position: 'Desenvolvedor de software FullStack júnior',
     },
   },
