@@ -10,8 +10,7 @@
         </span>
       </div>
 
-      <h3 class="sm:text-sm text-base">
-        {{ $t(`experiences.${formatTitle(props.item.title)}.description`) }}
+      <h3 class="sm:text-sm text-base" v-html="$t(`experiences.${formatTitle(props.item.title)}.description`)">
       </h3>
     </div>
 
