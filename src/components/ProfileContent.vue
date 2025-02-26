@@ -1,9 +1,9 @@
 <template>
-  <skills />
-  <divider />
   <experiences />
   <divider />
   <education />
+  <divider />
+  <skills />
 </template>
 
 <script setup>

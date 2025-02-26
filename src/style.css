@@ -10,13 +10,13 @@
 
 @layer components {
   .tool {
-    @apply py-1 px-2 m-1 font-bold border rounded flex items-center justify-center transition-colors hover:animate-bounce;
+    @apply py-1 px-2 m-1 font-bold border rounded flex items-center justify-center transition-colors;
   }
 }
 
 @layer components {
   .skill__box {
-    @apply font-mono flex items-center py-8 px-4 flex-col my-4 mx-4 h-96 w-80 border rounded-xl border-white shadow duration-1000 hover:transition-shadow hover:shadow-md hover:shadow-cyan-500/50 hover:scale-105;
+    @apply font-mono flex items-center py-8 px-4 flex-col my-4 mx-4 h-96 w-80 border rounded-xl border-white shadow duration-1000 hover:transition-shadow hover:shadow-md hover:border-cyan-500 hover:scale-105;
   }
 }
 
@@ -58,22 +58,22 @@
 
 .entrance_by_left {
   animation: enter_by_left;
-  animation-duration: 2s;
-  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-delay: .5s;
   animation-fill-mode: backwards;
 }
 
 .entrance_colors {
   animation: enter_color;
-  animation-duration: 2s;
-  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-delay: .5s;
   animation-fill-mode: backwards;
 }
 
 .entrance_by_right {
   animation: enter_by_right;
-  animation-duration: 2s;
-  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-delay: .5s;
   animation-fill-mode: backwards;
 }
 
@@ -121,53 +121,4 @@
   100% {
     opacity: 1;
   }
-}
-
-.header-button-vertical {
-  position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 2px 0;
-}
-
-.header-button-vertical:before {
-  content: attr(data-text);
-  position: absolute;
-  color: #06b6d480;
-  border-bottom: 2px solid #06b6d480;
-  -webkit-text-stroke: #06b6d480;
-  height: 100%;
-  overflow: hidden;
-  transition: 1s;
-}
-
-.header-button-vertical:hover:before {
-  border-bottom-color: #f1ffe7;
-  height: 0%;
-}
-
-.header-button-horizontal {
-  position: relative;
-  font-size: 2em;
-  text-decoration: none;
-  letter-spacing: 2px;
-  line-height: 1em;
-  text-transform: uppercase;
-  color: transparent;
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
-}
-
-.header-button-horizontal:before {
-  content: attr(data-text);
-  position: absolute;
-  color: #00ade1;
-  border-right: 4px solid #00ade1;
-  -webkit-text-stroke: 1px #00ade1;
-  width: 0%;
-  overflow: hidden;
-  transition: 1s;
-}
-
-.header-button-horizontal:hover:before {
-  width: 100%;
 }

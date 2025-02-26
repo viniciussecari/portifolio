@@ -8,7 +8,7 @@
       <ul class="flex">
         <li v-for="nav in navs" :key="nav.ref">
           <a 
-            class="mx-2 header-button-vertical" 
+            class="mx-2 font-bold hover:text-cyan-500" 
             :href="nav.ref"
             :data-text="`&nbsp;${nav.title}&nbsp;`" 
           >
@@ -57,7 +57,7 @@
         >
           <a
             @click="setAnchor"
-            class="mx-2 header-button-horizontal" 
+            class="mx-2" 
             :href="nav.ref"
             :data-text="`&nbsp;${nav.title}&nbsp;`" 
           >
@@ -97,6 +97,6 @@ const navs = ref([
 const setAnchor = () => {
   setTimeout(() => {
     toggleMenu.value = false;
-  }, 1500);
+  }, 500);
 };
 </script>

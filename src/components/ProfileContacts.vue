@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h2>{{ $t('profile.location') }}</h2>
     <h2>{{ $t('profile.position') }}</h2>
 
     <h2
