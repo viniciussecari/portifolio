@@ -34,11 +34,11 @@
 const lang = localStorage.getItem('language');
 
 const downloadCV = () => {
-  const pdfPath = `/src/assets/resumes/resume-${lang.value}.pdf`;
+  const pdfPath = `/src/assets/resumes/resume-${lang}.pdf`;
   const link = document.createElement('a');
 
   link.href = pdfPath;
-  link.download = `resume-${lang.value}.pdf`;
+  link.download = `resume-${lang}.pdf`;
 
   document.body.appendChild(link);
   link.click();
