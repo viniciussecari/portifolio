@@ -1,7 +1,7 @@
 <template>
   <div
     class="header h-auto w-full flex justify-center items-center flex-col">
-    <h1 class="font-bold text-xl">Vinicius Santana Secari</h1>
+    <h1 class="font-bold text-4xl">Vinicius Santana Secari</h1>
 
     <profile-contacts />
 

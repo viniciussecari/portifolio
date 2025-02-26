@@ -5,6 +5,7 @@ export const en = {
     location: 'Sao Paulo - Brazil',
     phone: '+55 11 98902-1001',
     email: '{account}{\'@\'}{domain}',
+    resume: 'Download resume',
   },
   sections: {
     experiences: {

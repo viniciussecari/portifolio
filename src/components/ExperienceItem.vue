@@ -2,12 +2,12 @@
   <div class="my-4 w-full md:w-6/12 flex justify-between items-start flex-col">
     <div>
       <div class="my-2">
-        <h2 class="mb-2 font-light text-2xl">{{ props.item.title }}</h2>
-        <h3>{{ $t(`experiences.${formatTitle(props.item.title)}.position`) }}</h3>
-        <span class="font-serif">
+        <h1 class="text-2xl font-bold">{{ props.item.title }}</h1>
+        <h2 class="font-bold my-2">{{ $t(`experiences.${formatTitle(props.item.title)}.position`) }}</h2>
+        <section class="font-serif mb-4">
           {{ props.item.initialDatetime }} -
           {{ props.item.finalDatetime || $t('sections.experiences.now') }}
-        </span>
+        </section>
       </div>
 
       <h3 class="sm:text-sm text-base" v-html="$t(`experiences.${formatTitle(props.item.title)}.description`)">
