@@ -34,72 +34,75 @@ export const pt_BR = {
     },
   },
   experiences: {
+    tradeupgroup: {
+      description: `
+        <ul>
+          <li class="py-2">
+            ● Desenvolvimento de funcionalidades que melhoram a experiência de vendedores de
+            varejo em grandes empresas de Telecom, como Claro, Vivo e Tim.
+          </li>
+          <li class="py-2">
+            ● Atuação na squad responsável pelos produtos da Claro, com contribuições
+            críticas em períodos de alta demanda e correção de bugs.
+          </li>
+          <li class="py-2">
+            ● Implementação de melhorias de UI/UX que aumentaram a eficiência dos vendedores.
+          </li>
+        </ul>
+      `,
+      position: 'Desenvolvedor Frontend',
+    },
     confidential: {
-      description: `Soluções de análise preditiva, proativa e aumentada que oferecem visibilidade em tempo real e insights
-        sobre fluxos de dados complexos.
-        <div class="text-left mt-2">
-          <ul>
-            <li class="py-2">
-              ● Tenho trabalhado com o web squad, desenvolvendo funcionalidades que ajudam os clientes a obter
-              as informações que desejam de forma mais rápida e visualmente bem utilizando VueJS, Vuetify,
-              Vuex, VueRouter, Storybook, ElasticSearch e Jest para testes automatizados.
-            </li>
-            <li class="py-2">
-              ● Ajudando a manter a saúde dos projetos trazendo sempre novas ideias de como utilizar o
-              gerenciador de estados, arquitetura de projetos, aumentando a cobertura de testes com Jest e
-              melhores práticas.
-            </li>
-            <li class="py-2">
-              ● Implementei a arquitetura Vertical Slice em uma feature como POC (Proof of Concept) e logo em
-              seguida implementamos em todos os projetos FrontEnd do nosso squad.
-            </li>
-          </ul>
-        </div>
+      description: `
+        <ul>
+          <li class="py-2">
+            ● Desenvolvimento de soluções de análise preditiva e proativa utilizando VueJS,
+            Vuetify, Vuex, VueRouter, Storybook, ElasticSearch e Jest.
+          </li>
+          <li class="py-2">
+            ● Implementação da arquitetura Vertical Slice como POC, posteriormente adotada em
+            todos os projetos FrontEnd da squad.
+          </li>
+          <li class="py-2">
+            ● Aumento da cobertura de testes automatizados em 20%, garantindo maior
+            estabilidade e qualidade do código.
+          </li>
+        </ul>
       `,
-      position: 'Desenvolvedor FrontEnd Pleno',
+      position: 'Desenvolvedor FrontEnd',
     },
-    farmtech: { 
-      description: `Trabalhando com a digitalização do crédito do agronegócio por meio de processos simples, sem burocracia
-        e baseados na confiança entre os participantes da cadeia.
-        <div class="text-left mt-2">
-          <ul>
-            <li class="py-2">
-              ● Comecei minha jornada como estagiário, mas em 9 meses fui contratado como júnior por
-              apresentar ótimo desempenho, criando funcionalidades que resolveram problemas de otimização e
-              melhor aproveitamento de páginas com VueJS, Vuetify, Vuex e VueRouter.
-            </li>
-            <li class="py-2">
-              ● Depois de me tornar Junior, continuei com minha atuação, mas tendo mais responsabilidades com
-              UI/UX e cobertura de testes usando Jest. Além de auxiliar no processo de migração do projeto de
-              monólito para microsserviço.
-            </li>
-            <li class="py-2">
-              ● Iniciei o projeto de testes ponta a ponta da empresa usando Cypress e ensinei a equipe de QA como
-              usá-lo
-            </li>
-          </ul>
-        </div>
+    farmtech: {
+      description: `
+        <ul>
+          <li class="py-2">
+            ● Contribuição para a digitalização do crédito no agronegócio, criando
+            funcionalidades que otimizaram processos e melhoraram a experiência do usuário.
+          </li>
+          <li class="py-2">
+            ● Migração de um projeto de monólito para microsserviços.
+          </li>
+          <li class="py-2">
+            ● Iniciativa na implementação de testes ponta a ponta com Cypress.
+          </li>
+        </ul>
       `,
-      position: 'Desenvolvedor FrontEnd Júnior',
+      position: 'Desenvolvedor FrontEnd',
     },
-    inking: { 
-      description: `Uma startup que prestava serviços para FarmTech, com uma pequena equipe de desenvolvedores da qual
-        fiz parte.
-        <div class="text-left mt-2">
-          <ul>
-            <li class="py-2">
-              ● Criei um projeto de migração de dados, de um banco de dados SQLServer para um banco de dados
-              MySQL utilizando Java com SpringBoot.
-            </li>
-            <li class="py-2">
-              ● Cuidei sozinho de toda a área de crédito FarmTech, resolvendo bugs, criando funcionalidades e
-              tomando decisões UI/UX utilizando VueJs, Vuetify, Vuex e VueRouter para frontend e para backend
-              utilizando Java, SpringBoot, Swagger.
-            </li>
-          </ul>
-        </div>
-    `,
-     position: 'Desenvolvedor de software FullStack júnior',
+    inking: {
+      description: `
+        <ul>
+          <li class="py-2">
+            ● Criação de um projeto de migração de dados de SQLServer para MySQL utilizando
+            Java com SpringBoot.
+          </li>
+          <li class="py-2">
+            ● Responsável pela área de crédito da FarmTech, resolvendo bugs, criando
+            funcionalidades e tomando decisões de UI/UX utilizando VueJs, Vuetify, Vuex e
+            VueRouter para frontend e Java, SpringBoot, Swagger para backend.
+          </li>
+        </ul>
+      `,
+      position: 'Desenvolvedor de software FullStack',
     },
   },
   skills: {

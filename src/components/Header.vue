@@ -81,16 +81,16 @@ const { t } = useI18n();
 
 const navs = ref([
   {
-    ref: '#skills',
-    title: t('sections.skills.title')
-  },
-  {
     ref: '#experiences',
     title: t('sections.experiences.title')
   },
   {
     ref: '#education',
     title: t('sections.education.college')
+  },
+  {
+    ref: '#skills',
+    title: t('sections.skills.title')
   }
 ]);
 

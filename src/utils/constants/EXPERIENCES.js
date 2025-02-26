@@ -1,9 +1,9 @@
 export const EXPERIENCES = [
   {
     title: 'TradeUp Group',
-    initialDatetime: '07/2022',
-    finalDatetime: '07/2024',
-    tools: ['VueJs', 'Vuetify', 'Vuex', 'VueRouter', 'Scrum', 'Agile', 'JSON'],
+    initialDatetime: '07/2024',
+    finalDatetime: '03/2025',
+    tools: ['VueJs', 'Vuex', 'VueRouter', 'Scrum', 'Agile', 'JSON', 'Kanbam'],
   },
   {
     title: 'Confidential',
