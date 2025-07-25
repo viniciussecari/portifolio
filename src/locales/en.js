@@ -34,14 +34,33 @@ export const en = {
     },
   },
   experiences: {
+    agressivesolutions: {
+      description: `
+        <ul>
+          <li class="py-2">
+            ● Analyzing mainly maps (Leaflet and Google Maps API), graphs (Chartjs and AgChart).
+          </li>
+          <li class="py-2">
+            ● Also developing scalable and maintainable endpoints with NodeJs and Drizzle.
+          </li>
+          <li class="py-2">
+            ● Maintaining the project's useful life by applying componentizations 
+            and good practices to both the front and back ends.
+          </li>
+        </ul>
+      `,
+      position: 'Fullstack Developer',
+    },
     tradeupgroup: {
       description: `
         <ul>
           <li class="py-2">
-            ● Development of features that enhance the experience of retail sellers in major Telecom companies, such as Claro, Vivo, and Tim.
+            ● Development of features that enhance the experience of 
+            retail sellers in major Telecom companies, such as Claro, Vivo, and Tim.
           </li>
           <li class="py-2">
-            ● Worked in the squad responsible for Claro's products, with critical contributions during high-demand periods and bug fixes.
+            ● Worked in the squad responsible for Claro's products, 
+            with critical contributions during high-demand periods and bug fixes.
           </li>
           <li class="py-2">
             ● Implementation of UI/UX improvements that increased sellers' efficiency.
@@ -54,10 +73,13 @@ export const en = {
       description: `
         <ul>
           <li class="py-2">
-            ● Development of predictive and proactive analysis solutions using VueJS, Vuetify, Vuex, VueRouter, Storybook, ElasticSearch, and Jest.
+            ● Development of predictive and proactive 
+            analysis solutions using VueJS, Vuetify, Vuex, VueRouter, 
+            Storybook, ElasticSearch, and Jest.
           </li>
           <li class="py-2">
-            ● Implementation of the Vertical Slice architecture as a POC, later adopted in all FrontEnd projects of the squad.
+            ● Implementation of the Vertical Slice architecture 
+            as a POC, later adopted in all FrontEnd projects of the squad.
           </li>
           <li class="py-2">
             ● Increased automated test coverage by 20%, ensuring greater code stability and quality.
@@ -70,7 +92,9 @@ export const en = {
       description: `
         <ul>
           <li class="py-2">
-            ● Contributed to the digitization of credit in agribusiness, creating features that optimized processes and improved user experience.
+            ● Contributed to the digitization of credit 
+            in agribusiness, creating features that optimized processes
+            and improved user experience.
           </li>
           <li class="py-2">
             ● Migration of a project from a monolith to microservices.
@@ -90,7 +114,8 @@ export const en = {
           </li>
           <li class="py-2">
             ● Responsible for the credit area of FarmTech, resolving bugs, creating features, 
-            and making UI/UX decisions using VueJs, Vuetify, Vuex, and VueRouter for frontend and Java, SpringBoot, Swagger for backend.
+            and making UI/UX decisions using VueJs, Vuetify, Vuex, and VueRouter for frontend 
+            and Java, SpringBoot, Swagger for backend.
           </li>
         </ul>
       `,

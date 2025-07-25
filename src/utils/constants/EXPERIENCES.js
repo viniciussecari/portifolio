@@ -1,15 +1,34 @@
 export const EXPERIENCES = [
   {
+    title: 'Agressive Solutions',
+    initialDatetime: '03/2025',
+    finalDatetime: '07/2025',
+    tools: [
+      'VueJs',
+      'Vuex', 
+      'VueRouter', 
+      'Scrum', 
+      'Agile', 
+      'JSON', 
+      'Kanbam', 
+      'ChartJs', 
+      'TailwindCSS',
+      'Google Maps',
+      'NodeJs',
+      'Drizzle'
+    ],
+  },
+  {
     title: 'TradeUp Group',
     initialDatetime: '07/2024',
     finalDatetime: '03/2025',
-    tools: ['VueJs', 'Vuex', 'VueRouter', 'Scrum', 'Agile', 'JSON', 'Kanbam'],
+    tools: ['VueJs', 'Vuex', 'VueRouter', 'Scrum', 'Agile', 'JSON', 'Kanbam', 'TailwindCSS'],
   },
   {
     title: 'Confidential',
     initialDatetime: '07/2022',
     finalDatetime: '07/2024',
-    tools: ['VueJs', 'Vuetify', 'Vuex', 'VueRouter', 'Scrum', 'Agile', 'JSON'],
+    tools: ['VueJs', 'Vuetify', 'Vuex', 'VueRouter', 'Scrum', 'Agile', 'JSON', 'TailwindCSS'],
   },
   {
     title: 'FarmTech',
@@ -23,6 +42,7 @@ export const EXPERIENCES = [
       'Cypress',
       'JSON',
       'Mobile First',
+      'TailwindCSS'
     ],
   },
   {
