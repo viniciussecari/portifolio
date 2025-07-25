@@ -34,6 +34,24 @@ export const pt_BR = {
     },
   },
   experiences: {
+    agressivesolutions: {
+      description: `
+        <ul>
+          <li class="py-2">
+            ● Analisando principalmente mapas (Leaflet e Google Maps API), 
+            gráficos (Chartjs e AgChart).
+          </li>
+          <li class="py-2">
+            ● Desenvolvendo também endpoints escaláveis e manuteniveis com NodeJs e Drizzle
+          </li>
+          <li class="py-2">
+            ● Dando manutenção à vida util do projeto aplicando componentizações e boas 
+            práticas tanto ao front quanto ao back.
+          </li>
+        </ul>
+      `,
+      position: 'Desenvolvedor FullStack',
+    },
     tradeupgroup: {
       description: `
         <ul>
