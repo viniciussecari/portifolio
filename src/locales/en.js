@@ -34,6 +34,28 @@ export const en = {
     },
   },
   experiences: {
+    igoeventos: {
+      description: `
+        <ul>
+          <li class="py-2">
+            ● Developed tools for managing guest RSVP and live interactions for corporate events
+          </li>
+          <li class="py-2">
+            ● Built a lead collection system with full offline functionality using IndexDB and 
+            Dexie.js, capable of processing over 50,000 records per event.
+          </li>
+          <li class="py-2">
+            ● Established project architecture standards and Git workflows for commits
+            and pull requests.
+          </li>
+          <li class="py-2">
+            ● Mentored junior developers and conducted internal training sessions on 
+            project management tools like Trello.
+          </li>
+        </ul>
+      `,
+      position: 'Frontend Developer',
+    },
     agressivesolutions: {
       description: `
         <ul>
