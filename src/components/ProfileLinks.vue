@@ -1,8 +1,11 @@
 <template>
   <section class="flex flex-col items-center">
     <section>
-      <button @click="downloadCV"
-        class="entrance_colors flex items-center justify-center p-2 my-2 border border-gray-100 hover:transform hover:scale-105">
+      <button 
+        @click="downloadCV"
+        class="entrance_colors flex items-center justify-center p-2 my-4 border
+         border-gray-100 hover:transform hover:scale-105"
+      >
         <img class="bg-cover w-4 h-4 mr-2" src="../assets/icons/download.svg" alt="" />
         {{ $t('profile.resume') }}
       </button>
@@ -31,11 +34,15 @@
 </template>
 
 <script setup>
+import { nextTick } from 'vue';
+
 const lang = localStorage.getItem('language');
 
 const downloadCV = () => {
-  const pdfPath = `/src/assets/resumes/resume-${lang}.pdf`;
+  const pdfPath = `/resumes/resume-${lang}.pdf`;
   const link = document.createElement('a');
+
+  nextTick();
 
   link.href = pdfPath;
   link.download = `resume-${lang}.pdf`;
@@ -43,5 +50,5 @@ const downloadCV = () => {
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
-}
+};
 </script>
