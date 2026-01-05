@@ -34,6 +34,30 @@ export const pt_BR = {
     },
   },
   experiences: {
+    igoeventos: {
+      description: `
+        <ul>
+          <li class="py-2">
+            ● Desenvolvi ferramentas para gerenciar o RSVP de convidados e interações 
+            ao vivo para eventos corporativos.
+          </li>
+          <li class="py-2">
+            ● Construí um sistema de coleta de leads com funcionalidade offline 
+            completa usando IndexDB e Dexie.js, capaz de processar mais de
+            50.000 registros por evento.
+          </li>
+          <li class="py-2">
+            ● Estabeleci padrões de arquitetura de projeto e fluxos de trabalho 
+            com Git para commits e pull requests.
+          </li>
+          <li class="py-2">
+            ● Mentor desenvolvedores juniores e conduzi sessões de treinamento interno sobre 
+            ferramentas de gestão de projetos como Trello.
+          </li>
+        </ul>
+      `,
+      position: 'Desenvolvedor FullStack',
+    },
     agressivesolutions: {
       description: `
         <ul>

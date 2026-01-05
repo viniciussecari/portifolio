@@ -1,5 +1,25 @@
 export const EXPERIENCES = [
   {
+    title: 'I Go Eventos',
+    initialDatetime: '08/2025',
+    finalDatetime: '',
+    tools: [
+      'VueJs',
+      'Vuex', 
+      'VueRouter', 
+      'Scrum', 
+      'Agile', 
+      'JSON', 
+      'Kanbam', 
+      'ChartJs', 
+      'TailwindCSS',
+      'Google Maps',
+      'SignalR',
+      '.Net',
+      'N8N',
+    ],
+  },
+  {
     title: 'Agressive Solutions',
     initialDatetime: '03/2025',
     finalDatetime: '07/2025',
