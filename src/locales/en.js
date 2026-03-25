@@ -36,112 +36,187 @@ export const en = {
   experiences: {
     igoeventos: {
       description: `
-        <ul>
-          <li class="py-2">
-            ● Developed tools for managing guest RSVP and live interactions for corporate events
-          </li>
-          <li class="py-2">
-            ● Built a lead collection system with full offline functionality using IndexDB and 
-            Dexie.js, capable of processing over 50,000 records per event.
-          </li>
-          <li class="py-2">
-            ● Established project architecture standards and Git workflows for commits
-            and pull requests.
-          </li>
-          <li class="py-2">
-            ● Mentored junior developers and conducted internal training sessions on 
-            project management tools like Trello.
-          </li>
-        </ul>
-      `,
+      <ul>
+        <li class="py-2">
+          ● Defined engineering standards (GitFlow, semantic commits, PRs) ensuring 
+          code quality and consistency.
+        </li>
+        <li class="py-2">
+          ● Modernized landing pages with AI (Claude), making content dynamic 
+          and reducing creation time.
+        </li>
+        <li class="py-2">
+          ● Developed a mobile app with PWA, dynamic JSON, and push 
+          notifications, enabling real‑time updates without new builds.
+        </li>
+        <li class="py-2">
+          ● Built an offline lead collection system with IndexedDB/Dexie.js, 
+          processing 50k+ records/event. Attended an event with Google, Meta, 
+          and Notion, gathering feedback for improvements.
+        </li>
+        <li class="py-2">
+          ● Created an interactive backdrop generator in 1 week, integrating 
+          n8n and LED panels.
+        </li>
+        <li class="py-2">
+          ● Contributed to backend and database standards, aligning 
+          architecture across the team.
+        </li>
+        <li class="py-2">
+          ● Supported less experienced developers, assisting with deliveries 
+          and facilitating cross‑area communication.
+        </li>
+        <li class="py-2">
+          ● Major contributor to the accommodation match system: backend integration, 
+          visual adjustments, and a customizable admin panel with email notifications.
+        </li>
+        <li class="py-2">
+          ● Served as technical representative on the communication committee, 
+          bringing team demands to the board.
+        </li>
+      </ul>
+    `,
       position: 'Frontend Developer',
     },
     agressivesolutions: {
       description: `
-        <ul>
-          <li class="py-2">
-            ● Analyzing mainly maps (Leaflet and Google Maps API), graphs (Chartjs and AgChart).
-          </li>
-          <li class="py-2">
-            ● Also developing scalable and maintainable endpoints with NodeJs and Drizzle.
-          </li>
-          <li class="py-2">
-            ● Maintaining the project's useful life by applying componentizations 
-            and good practices to both the front and back ends.
-          </li>
-        </ul>
-      `,
-      position: 'Fullstack Developer',
+      <ul>
+        <li class="py-2">
+          ● Developed a performance analysis dashboard with data visualization 
+          (Leaflet, Chart.js, Ag-Charts).
+        </li>
+        <li class="py-2">
+          ● Created scalable RESTful APIs using Node.js and Drizzle ORM.
+        </li>
+        <li class="py-2">
+          ● Implemented componentization and best practices for code maintainability.
+        </li>
+      </ul>
+    `,
+      position: 'FullStack Developer',
     },
     tradeupgroup: {
       description: `
-        <ul>
-          <li class="py-2">
-            ● Development of features that enhance the experience of 
-            retail sellers in major Telecom companies, such as Claro, Vivo, and Tim.
-          </li>
-          <li class="py-2">
-            ● Worked in the squad responsible for Claro's products, 
-            with critical contributions during high-demand periods and bug fixes.
-          </li>
-          <li class="py-2">
-            ● Implementation of UI/UX improvements that increased sellers' efficiency.
-          </li>
-        </ul>
-      `,
+      <ul>
+        <li class="py-2">
+          ● Enhanced the platform for sales representatives of carriers (Claro, Vivo, Tim).
+        </li>
+        <li class="py-2">
+          ● Worked on the Claro squad with critical contributions during high‑demand periods.
+        </li>
+        <li class="py-2">
+          ● UI/UX optimizations that increased the efficiency of the sales team.
+        </li>
+        <li class="py-2">
+          ● Tasked with integrating Pernambucanas into the main system 
+          – estimated 3 months, delivered in 1 week using only existing code 
+          and a previous integration as reference, without AI assistance.
+        </li>
+      </ul>
+    `,
       position: 'Frontend Developer',
     },
-    confidential: {
+    gestioschool: {
       description: `
-        <ul>
-          <li class="py-2">
-            ● Development of predictive and proactive 
-            analysis solutions using VueJS, Vuetify, Vuex, VueRouter, 
-            Storybook, ElasticSearch, and Jest.
-          </li>
-          <li class="py-2">
-            ● Implementation of the Vertical Slice architecture 
-            as a POC, later adopted in all FrontEnd projects of the squad.
-          </li>
-          <li class="py-2">
-            ● Increased automated test coverage by 20%, ensuring greater code stability and quality.
-          </li>
-        </ul>
-      `,
-      position: 'FrontEnd Developer',
+      <ul>
+        <li class="py-2">
+          ● Technical leadership in developing a school management platform 
+          (class, student, staff management).
+        </li>
+        <li class="py-2">
+          ● Defined component standards with Vuetify and established 
+          communication contracts between them.
+        </li>
+        <li class="py-2">
+          ● Reviewed pull requests from the junior developer, ensuring 
+          adherence to standards and code quality.
+        </li>
+        <li class="py-2">
+          ● Implemented end‑to‑end tests with Cypress.
+        </li>
+        <li class="py-2">
+          ● Architecture and design system decisions that reduced development 
+          time by 50%.
+        </li>
+      </ul>
+    `,
+      position: 'Tech Lead & Frontend Developer',
+    },
+    zerumit: {
+      description: `
+      <ul>
+        <li class="py-2">
+          ● Developed predictive analysis solutions using Vue.js, ElasticSearch, and Vuetify.
+        </li>
+        <li class="py-2">
+          ● Created a real‑time map module displaying attacking and 
+          attacked IPs, enabling tracking and custom filters for security analysis.
+        </li>
+        <li class="py-2">
+          ● Implemented Vertical Slice architecture as a proof of concept, 
+          later adopted across all squad projects.
+        </li>
+        <li class="py-2">
+          ● Increased automated test coverage by 20% (Jest).
+        </li>
+      </ul>
+    `,
+      position: 'Frontend Developer (Pleno)',
     },
     farmtech: {
       description: `
-        <ul>
-          <li class="py-2">
-            ● Contributed to the digitization of credit 
-            in agribusiness, creating features that optimized processes
-            and improved user experience.
-          </li>
-          <li class="py-2">
-            ● Migration of a project from a monolith to microservices.
-          </li>
-          <li class="py-2">
-            ● Led the implementation of end-to-end testing with Cypress.
-          </li>
-        </ul>
-      `,
-      position: 'FrontEnd Developer',
+      <ul>
+        <li class="py-2">
+          ● Contributed to the digitalization of agricultural credit 
+          through new features that streamlined processes and improved user experience.
+        </li>
+        <li class="py-2">
+          ● Participated in the migration from monolith to microservices.
+        </li>
+        <li class="py-2">
+          ● Started implementing end‑to‑end tests with Cypress.
+        </li>
+      </ul>
+    `,
+      position: 'Frontend Developer (Junior)',
     },
     inking: {
       description: `
-        <ul>
-          <li class="py-2">
-            ● Created a data migration project from SQLServer to MySQL using Java with SpringBoot.
-          </li>
-          <li class="py-2">
-            ● Responsible for the credit area of FarmTech, resolving bugs, creating features, 
-            and making UI/UX decisions using VueJs, Vuetify, Vuex, and VueRouter for frontend 
-            and Java, SpringBoot, Swagger for backend.
-          </li>
-        </ul>
-      `,
-      position: 'FullStack Software Developer',
+      <ul>
+        <li class="py-2">
+          ● Worked at a startup providing services for FarmTech, 
+          integrated with the development team.
+        </li>
+        <li class="py-2">
+          ● Created a data migration project from SQL Server to MySQL using 
+          Java with Spring Boot.
+        </li>
+        <li class="py-2">
+          ● Full responsibility for FarmTech’s credit area: bug fixes, feature 
+          development, and UI/UX decisions.
+        </li>
+        <li class="py-2">
+          ● Frontend development with Vue.js, Vuetify, Vuex, and Vue Router; 
+          backend with Java, Spring Boot, and Swagger.
+        </li>
+      </ul>
+    `,
+      position: 'FullStack Software Developer (Junior)',
+    },
+    portariaja: {
+      description: `
+      <ul>
+        <li class="py-2">
+          ● Developed administrative pages for an access control system with 
+          facial recognition for condominiums.
+        </li>
+        <li class="py-2">
+          ● Created scalable endpoints with Laravel to manage classes, students, 
+          and teachers, expanding the system’s capabilities.
+        </li>
+      </ul>
+    `,
+      position: 'Frontend Developer (Junior)',
     },
   },
   skills: {
@@ -157,8 +232,8 @@ export const en = {
     },
     css: {
       title: 'CSS',
-      description: `Cascading Style Sheets is a mechanism for adding styles to a web page,
-      applied directly to HTML tags or contained within <style> tags.`,
+      description: `Cascading Style Sheets is a mechanism for adding styles to a web page, 
+          applied directly to HTML tags or contained within <style> tags.`,
     },
     vuejs: {
       title: 'Vue JS',
@@ -212,13 +287,13 @@ export const en = {
     },
     jest: {
       title: 'Jest',
-      description: `Jest is a JavaScript testing framework
-      built on Jasmine and maintained by Meta.`,
+      description: `Jest is a JavaScript testing framework 
+          built on Jasmine and maintained by Meta.`,
     },
     cypress: {
       title: 'Cypress',
-      description: `Cypress is a front-end testing tool
-      for web applications.`,
+      description: `Cypress is a front-end testing tool 
+          for web applications.`,
     },
     storybook: {
       title: 'Storybook',

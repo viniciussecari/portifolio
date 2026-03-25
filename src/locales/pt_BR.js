@@ -36,115 +36,195 @@ export const pt_BR = {
   experiences: {
     igoeventos: {
       description: `
-        <ul>
-          <li class="py-2">
-            ● Desenvolvi ferramentas para gerenciar o RSVP de convidados e interações 
-            ao vivo para eventos corporativos.
-          </li>
-          <li class="py-2">
-            ● Construí um sistema de coleta de leads com funcionalidade offline 
-            completa usando IndexDB e Dexie.js, capaz de processar mais de
-            50.000 registros por evento.
-          </li>
-          <li class="py-2">
-            ● Estabeleci padrões de arquitetura de projeto e fluxos de trabalho 
-            com Git para commits e pull requests.
-          </li>
-          <li class="py-2">
-            ● Mentor desenvolvedores juniores e conduzi sessões de treinamento interno sobre 
-            ferramentas de gestão de projetos como Trello.
-          </li>
-        </ul>
-      `,
-      position: 'Desenvolvedor FullStack',
+      <ul>
+        <li class="py-2">
+          ● Definição de padrões de engenharia (GitFlow, commits semânticos, 
+          PRs) garantindo qualidade e consistência no código.
+        </li>
+        <li class="py-2">
+          ● Modernização de landing pages com IA (Claude), tornando o conteúdo 
+          dinâmico e reduzindo o tempo de criação.
+        </li>
+        <li class="py-2">
+          ● Desenvolvimento de app mobile com PWA, JSON dinâmico e push 
+          notifications, permitindo atualizações sem novas builds.
+        </li>
+        <li class="py-2">
+          ● Sistema de coleta de leads offline com IndexedDB/Dexie.js, 
+          processando +50k registros/evento. Acompanhamento em evento com 
+          Google, Meta e Notion, coletando feedbacks para melhorias.
+        </li>
+        <li class="py-2">
+          ● Criação de gerador de backdrops interativo em 1 semana, 
+          integrando n8n e painéis de LED.
+        </li>
+        <li class="py-2">
+          ● Contribuição em backend e banco de dados, alinhando 
+          arquitetura com toda a equipe.
+        </li>
+        <li class="py-2">
+          ● Suporte a desenvolvedores menos experientes, auxiliando em entregas 
+          e facilitando comunicação entre áreas.
+        </li>
+        <li class="py-2">
+          ● Entrega majoritária do sistema de match de hospedagem: integração 
+          backend, ajustes visuais e criação de admin personalizável (cores, 
+          logos, regras) com notificações por e-mail.
+        </li>
+        <li class="py-2">
+          ● Representante técnico no comitê de comunicação, levando demandas do 
+          time à diretoria.
+        </li>
+      </ul>
+    `,
+      position: 'Desenvolvedor Frontend',
     },
     agressivesolutions: {
       description: `
-        <ul>
-          <li class="py-2">
-            ● Analisando principalmente mapas (Leaflet e Google Maps API), 
-            gráficos (Chartjs e AgChart).
-          </li>
-          <li class="py-2">
-            ● Desenvolvendo também endpoints escaláveis e manuteniveis com NodeJs e Drizzle
-          </li>
-          <li class="py-2">
-            ● Dando manutenção à vida util do projeto aplicando componentizações e boas 
-            práticas tanto ao front quanto ao back.
-          </li>
-        </ul>
-      `,
+      <ul>
+        <li class="py-2">
+          ● Desenvolvimento de dashboard de análise de performance com 
+          visualização de dados (Leaflet, Chart.js, Ag-Charts).
+        </li>
+        <li class="py-2">
+          ● Criação de APIs RESTful escaláveis com Node.js e Drizzle ORM.
+        </li>
+        <li class="py-2">
+          ● Implementação de componentização e melhores práticas para 
+          manutenibilidade do código.
+        </li>
+      </ul>
+    `,
       position: 'Desenvolvedor FullStack',
     },
     tradeupgroup: {
       description: `
-        <ul>
-          <li class="py-2">
-            ● Desenvolvimento de funcionalidades que melhoram a experiência de vendedores de
-            varejo em grandes empresas de Telecom, como Claro, Vivo e Tim.
-          </li>
-          <li class="py-2">
-            ● Atuação na squad responsável pelos produtos da Claro, com contribuições
-            críticas em períodos de alta demanda e correção de bugs.
-          </li>
-          <li class="py-2">
-            ● Implementação de melhorias de UI/UX que aumentaram a eficiência dos vendedores.
-          </li>
-        </ul>
-      `,
+      <ul>
+        <li class="py-2">
+          ● Aprimoramento da plataforma para representantes de vendas de 
+          operadoras (Claro, Vivo, Tim).
+        </li>
+        <li class="py-2">
+          ● Atuação no squad da Claro com contribuições críticas em períodos 
+          de alta demanda.
+        </li>
+        <li class="py-2">
+          ● Otimizações de UI/UX que aumentaram a eficiência da equipe comercial.
+        </li>
+        <li class="py-2">
+          ● Recebi a tarefa de integrar a Pernambucanas ao sistema principal da 
+          empresa – prazo estimado de 3 meses, entregue em 1 semana, utilizando
+          exclusivamente o código existente e uma integração anterior como 
+          referência, sem auxílio de IA.
+        </li>
+      </ul>
+    `,
       position: 'Desenvolvedor Frontend',
     },
-    confidential: {
+    gestioschool: {
       description: `
-        <ul>
-          <li class="py-2">
-            ● Desenvolvimento de soluções de análise preditiva e proativa utilizando VueJS,
-            Vuetify, Vuex, VueRouter, Storybook, ElasticSearch e Jest.
-          </li>
-          <li class="py-2">
-            ● Implementação da arquitetura Vertical Slice como POC, posteriormente adotada em
-            todos os projetos FrontEnd da squad.
-          </li>
-          <li class="py-2">
-            ● Aumento da cobertura de testes automatizados em 20%, garantindo maior
-            estabilidade e qualidade do código.
-          </li>
-        </ul>
-      `,
-      position: 'Desenvolvedor FrontEnd',
+      <ul>
+        <li class="py-2">
+          ● Liderança técnica no desenvolvimento de plataforma de gestão escolar 
+          (criação de turmas, gerenciamento de alunos e funcionários).
+        </li>
+        <li class="py-2">
+          ● Definição de padrões de componentes com Vuetify e estabelecimento de
+          contratos de comunicação entre eles.
+        </li>
+        <li class="py-2">
+          ● Revisão de pull requests do desenvolvedor júnior da equipe, garantindo
+          a manutenção dos padrões e a qualidade do código.
+        </li>
+        <li class="py-2">
+          ● Implementação de testes end-to-end com Cypress.
+        </li>
+        <li class="py-2">
+          ● Decisões de arquitetura e design system que reduziram o tempo de 
+          desenvolvimento em 50%.
+        </li>
+      </ul>
+    `,
+      position: 'Tech Lead & Desenvolvedor Frontend',
+    },
+    zerumit: {
+      description: `
+      <ul>
+        <li class="py-2">
+          ● Desenvolvimento de soluções de análise preditiva com Vue.js, 
+          ElasticSearch e Vuetify.
+        </li>
+        <li class="py-2">
+          ● Criação de módulo de mapa com visualização em tempo real de IPs 
+          atacantes e atacados, permitindo rastreamento e criação de filtros 
+          personalizados para análise de segurança.
+        </li>
+        <li class="py-2">
+          ● Implementação de arquitetura Vertical Slice como prova de conceito,
+          posteriormente adotada em todos os projetos da squad.
+        </li>
+        <li class="py-2">
+          ● Aumento de 20% na cobertura de testes automatizados (Jest).
+        </li>
+      </ul>
+    `,
+      position: 'Desenvolvedor Frontend Pleno',
     },
     farmtech: {
       description: `
-        <ul>
-          <li class="py-2">
-            ● Contribuição para a digitalização do crédito no agronegócio, criando
-            funcionalidades que otimizaram processos e melhoraram a experiência do usuário.
-          </li>
-          <li class="py-2">
-            ● Migração de um projeto de monólito para microsserviços.
-          </li>
-          <li class="py-2">
-            ● Iniciativa na implementação de testes ponta a ponta com Cypress.
-          </li>
-        </ul>
-      `,
-      position: 'Desenvolvedor FrontEnd',
+      <ul>
+        <li class="py-2">
+          ● Contribuição para a digitalização do crédito agrícola por meio de
+          novas funcionalidades que otimizaram processos e melhoraram a 
+          experiência do usuário.
+        </li>
+        <li class="py-2">
+          ● Participação na migração de monolito para microsserviços.
+        </li>
+        <li class="py-2">
+          ● Início da implementação de testes end-to-end com Cypress.
+        </li>
+      </ul>
+    `,
+      position: 'Desenvolvedor Frontend Júnior',
     },
     inking: {
       description: `
-        <ul>
-          <li class="py-2">
-            ● Criação de um projeto de migração de dados de SQLServer para MySQL utilizando
-            Java com SpringBoot.
-          </li>
-          <li class="py-2">
-            ● Responsável pela área de crédito da FarmTech, resolvendo bugs, criando
-            funcionalidades e tomando decisões de UI/UX utilizando VueJs, Vuetify, Vuex e
-            VueRouter para frontend e Java, SpringBoot, Swagger para backend.
-          </li>
-        </ul>
-      `,
-      position: 'Desenvolvedor de software FullStack',
+      <ul>
+        <li class="py-2">
+          ● Atuação em startup que prestava serviços para FarmTech, integrando
+          equipe de desenvolvimento.
+        </li>
+        <li class="py-2">
+          ● Criação de projeto de migração de dados de SQL Server para MySQL 
+          utilizando Java com Spring Boot.
+        </li>
+        <li class="py-2">
+          ● Responsabilidade total pela área de crédito da FarmTech: resolução 
+          de bugs, criação de funcionalidades e decisões de UI/UX.
+        </li>
+        <li class="py-2">
+          ● Desenvolvimento frontend com Vue.js, Vuetify, Vuex e Vue Router; 
+          backend com Java, Spring Boot e Swagger.
+        </li>
+      </ul>
+    `,
+      position: 'Desenvolvedor de Software FullStack Júnior',
+    },
+    portariaja: {
+      description: `
+      <ul>
+        <li class="py-2">
+          ● Desenvolvimento de páginas administrativas para sistema de 
+          controle de entrada/saída com reconhecimento facial para condomínios.
+        </li>
+        <li class="py-2">
+          ● Criação de endpoints escaláveis com Laravel para gerenciar turmas, 
+          alunos e professores, ampliando as capacidades do sistema.
+        </li>
+      </ul>
+    `,
+      position: 'Desenvolvedor Frontend Júnior',
     },
   },
   skills: {
