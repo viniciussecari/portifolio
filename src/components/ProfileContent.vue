@@ -7,8 +7,10 @@
 </template>
 
 <script setup>
-import Skills from './Skills.vue';
 import Divider from './Divider.vue';
-import Experiences from './Experiences.vue';
-import Education from './Education.vue';
+import { defineAsyncComponent } from 'vue';
+
+const skills = defineAsyncComponent(() => import('./Skills.vue'));
+const experiences = defineAsyncComponent(() => import('./Experiences.vue'));
+const education = defineAsyncComponent(() => import('./Education.vue'));
 </script>

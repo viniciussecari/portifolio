@@ -1,6 +1,11 @@
 <template>
-  <form class="max-w-sm ml-auto entrance_by_right">
-    <select id="countries" class="select__countries" v-model="lang">
+  <form class="max-w-sm ml-auto">
+    <select
+      id="countries"
+      class="select__countries"
+      aria-label="Selecione o idioma da página"
+      v-model="lang"
+    >
       <option value="pt_BR">{{ $t('countries.pt') }}</option>
       <option value="en">{{ $t('countries.usa') }}</option>
     </select>
