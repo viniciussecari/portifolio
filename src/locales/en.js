@@ -145,9 +145,15 @@ export const en = {
     },
   },
   skills: {
+    divisors: {
+      frontend: 'FRONTEND',
+      backend: 'BACKEND',
+      tools: 'TOOLS',
+    },
     html: {
       title: 'HTML',
-      description: 'HTML is a markup language used to build web pages.',
+      description:
+        'HTML is a markup language used to build web pages.',
     },
     css: {
       title: 'CSS',
@@ -156,28 +162,53 @@ export const en = {
     },
     vuejs: {
       title: 'Vue JS',
-      description: `Vue.js is an open-source JavaScript framework,
-      focused on developing user interfaces and single page applications`,
+      description: `Vue.js is an open-source JavaScript framework 
+          focused on building user interfaces and single-page applications.`,
+    },
+    nuxt: {
+      title: 'Nuxt.js',
+      description: `Nuxt.js is a framework based on Vue.js that makes it easy to create universal, 
+          static, and server-rendered (SSR) applications.`,
+    },
+    pinia: {
+      title: 'Pinia',
+      description: `Pinia is the official store for Vue.js, offering reactive state management 
+          with TypeScript support and an intuitive API.`,
+    },
+    vuetify: {
+      title: 'Vuetify',
+      description: `Vuetify is a UI component library based on Material Design for Vue.js, 
+          speeding up development with ready-to-use and customizable components.`,
+    },
+    typescript: {
+      title: 'TypeScript',
+      description: `TypeScript is a superset of JavaScript that adds static typing, 
+          increasing code safety and maintainability.`,
+    },
+    vite: {
+      title: 'Vite',
+      description: `Vite is a fast build tool that provides instant hot reload 
+          and optimizations for Vue projects and other modern frameworks.`,
     },
     sass: {
       title: 'SASS',
-      description: `SASS is a CSS extension language, the acronym
-      stands for “Syntactically Awesome Style Sheets”, style sheets with incredible syntax.`,
+      description: `SASS is a CSS extension language, 
+          the acronym stands for “Syntactically Awesome Style Sheets”.`,
     },
     tailwindcss: {
       title: 'TailwindCSS',
-      description: 'Tailwind CSS is an open source CSS framework.',
+      description: 'Tailwind CSS is an open-source utility-first CSS framework.',
     },
     js: {
       title: 'JS',
-      description: `JavaScript is a structured interpreted programming language,
-      high-level scripting with weak, multi-paradigm dynamic typing.`,
+      description: `JavaScript is an interpreted, structured, high-level scripting language 
+          with dynamic weak typing and multi-paradigm support.`,
     },
-    nodejs: {
-      title: 'NodeJs',
-      description: `Node.js is open source, cross-platform,
-      based on Google's V8 interpreter and which allows the execution of codes
-      JavaScript outside of a web browser.`,
+    git: {
+      title: 'Git',
+      description: `Git is a distributed version control system, 
+          primarily used in software development, but can be used to track the
+          history of any type of file.`,
     },
     jest: {
       title: 'Jest',
@@ -189,17 +220,75 @@ export const en = {
       description: `Cypress is a front-end testing tool
       for web applications.`,
     },
-    git: {
-      title: 'Git',
-      description: `Git is a distributed version control system,
-      mainly used in software development, but can be used to record the
-      edit history of any type of file.`,
+    storybook: {
+      title: 'Storybook',
+      description: `Storybook is a tool for developing, documenting, and testing 
+          UI components in isolation.`,
+    },
+    elasticsearch: {
+      title: 'ElasticSearch',
+      description: `ElasticSearch is a distributed search and analytics engine, 
+          used to index and query large volumes of data in real time.`,
+    },
+    jira: {
+      title: 'Jira',
+      description: `Jira is a project management and issue tracking tool, 
+          widely used in agile teams.`,
+    },
+    trello: {
+      title: 'Trello',
+      description: `Trello is a visual task management tool based on boards, 
+          ideal for organizing workflows.`,
+    },
+    miro: {
+      title: 'Miro',
+      description: `Miro is a collaborative online whiteboard platform, 
+          used for brainstorming, diagramming, and planning.`,
+    },
+    figma: {
+      title: 'Figma',
+      description: `Figma is a cloud-based interface design and prototyping tool, 
+          that facilitates collaboration between designers and developers.`,
     },
     cleancode: {
       title: 'Clean Code',
-      description: `Clean Code refers to a set of good practices in
-      writing software that you can apply to achieve greater readability
-      and maintainability of your code.`,
+      description: `Clean Code refers to a set of best practices in software writing 
+          to achieve greater readability and maintainability.`,
     },
-  },
+    nodejs: {
+      title: 'NodeJs',
+      description: `Node.js is an open-source, cross-platform runtime environment 
+          based on Google's V8 engine that allows executing JavaScript code outside a web browser.`,
+    },
+    java: {
+      title: 'Java',
+      description: `Java is an object-oriented programming language widely used 
+          in enterprise and back-end development.`,
+    },
+    springboot: {
+      title: 'Spring Boot',
+      description: `Spring Boot is a framework that simplifies building Java applications 
+          with automatic configurations and production-ready features.`,
+    },
+    laravel: {
+      title: 'Laravel',
+      description: `Laravel is a PHP web development framework, 
+          focused on expressiveness and productivity.`,
+    },
+    drizzle: {
+      title: 'Drizzle ORM',
+      description: `Drizzle ORM is a lightweight, typed ORM for Node.js, 
+          simplifying interaction with SQL databases.`,
+    },
+    mysql: {
+      title: 'MySQL',
+      description: `MySQL is an open-source relational database management system 
+          widely used.`,
+    },
+    sqlserver: {
+      title: 'SQL Server',
+      description: `SQL Server is a relational database management system 
+          by Microsoft, used in enterprise environments.`,
+    },
+  }
 };

@@ -1,58 +1,128 @@
-import js from '../../assets/icons/js.svg';
-import git from '../../assets/icons/git.svg';
-import vue from '../../assets/icons/vue.svg';
-import sass from '../../assets/icons/sass.svg';
-import code from '../../assets/icons/code.svg';
-import jest from '../../assets/icons/jest.svg';
-import css_3 from '../../assets/icons/css-3.svg';
-import html_5 from '../../assets/icons/html-5.svg';
-import cypress from '../../assets/icons/cypress.svg';
-import node_js from '../../assets/icons/node-js.svg';
-import tailwindcss from '../../assets/icons/tailwind-css.svg';
+import { icons } from '../../assets/icons';
 
 export default [
   {
-    title: 'Vue JS',
-    icon: vue,
+    frontend: [
+      {
+        title: 'Vue JS',
+        icon: icons.vue,
+      },
+      {
+        title: 'Nuxt',
+        icon: icons.nuxt,
+      },
+      {
+        title: 'Pinia',
+        icon: icons.pinia,
+      },
+      {
+        title: 'Vuetify',
+        icon: icons.vuetify,
+      },
+      {
+        title: 'TypeScript',
+        icon: icons.typescript,
+      },
+      {
+        title: 'Vite',
+        icon: icons.vite,
+      },
+      {
+        title: 'HTML',
+        icon: icons.html_5,
+      },
+      {
+        title: 'CSS',
+        icon: icons.css_3,
+      },
+      {
+        title: 'SASS',
+        icon: icons.sass,
+      },
+      {
+        title: 'TailwindCSS',
+        icon: icons.tailwindcss,
+      },
+      {
+        title: 'JS',
+        icon: icons.js,
+      },
+    ]
   },
   {
-    title: 'HTML',
-    icon: html_5,
+    tools: [
+      {
+        title: 'Git',
+        icon: icons.git,
+      },
+      {
+        title: 'Jest',
+        icon: icons.jest,
+      },
+      {
+        title: 'Cypress',
+        icon: icons.cypress,
+      },
+      {
+        title: 'Storybook',
+        icon: icons.storybook,
+      },
+      {
+        title: 'Jira',
+        icon: icons.jira,
+      },
+      {
+        title: 'Trello',
+        icon: icons.trello,
+      },
+      {
+        title: 'Miro',
+        icon: icons.miro,
+      },
+      {
+        title: 'Figma',
+        icon: icons.figma,
+      },
+      {
+        title: 'Clean Code',
+        icon: icons.code,
+      },
+    ]
   },
   {
-    title: 'CSS',
-    icon: css_3,
-  },
-  {
-    title: 'SASS',
-    icon: sass,
-  },
-  {
-    title: 'TailwindCSS',
-    icon: tailwindcss,
-  },
-  {
-    title: 'JS',
-    icon: js,
-  },
-  {
-    title: 'NodeJs',
-    icon: node_js,
-  },
-  {
-    title: 'Jest',
-    icon: jest,
-  },
-  {
-    title: 'Cypress',
-    icon: cypress,
-  },
-  {
-    title: 'Git',
-    icon: git,
-  },
-  {
-    title: 'Clean Code',
-    icon: code,
-  },
+    backend: [
+      {
+        title: 'NodeJs',
+        icon: icons.node_js,
+      },
+      {
+        title: 'Java',
+        icon: icons.java,
+      },
+      {
+        title: 'Spring Boot',
+        icon: icons.springboot,
+      },
+      {
+        title: 'Laravel',
+        icon: icons.laravel,
+      },
+      {
+        title: 'Drizzle',
+        icon: icons.drizzle,
+      },
+      {
+        title: 'MySQL',
+        icon: icons.mysql,
+      },
+      {
+        title: 'SQL Server',
+        icon: icons.sqlserver,
+      },
+      {
+        title: 'ElasticSearch',
+        icon: icons.elasticsearch,
+      },
+    ]
+  }
 ];

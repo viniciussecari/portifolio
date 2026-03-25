@@ -148,6 +148,11 @@ export const pt_BR = {
     },
   },
   skills: {
+    divisors: {
+      frontend: 'FRONTEND',
+      backend: 'BACKEND',
+      tools: 'FERRAMENTAS',
+    },
     html: {
       title: 'HTML',
       description:
@@ -163,6 +168,31 @@ export const pt_BR = {
       description: `Vue.js é um framework JavaScript de código-aberto, 
           focado no desenvolvimento de interfaces de usuário e aplicativos de página única`,
     },
+    nuxt: {
+      title: 'Nuxt.js',
+      description: `Nuxt.js é um framework baseado em Vue.js que permite criar aplicações 
+        universais, estáticas e renderizadas no servidor (SSR) com facilidade.`,
+    },
+    pinia: {
+      title: 'Pinia',
+      description: `Pinia é a store oficial para Vue.js, oferecendo gerenciamento de estado reativo 
+          com suporte a TypeScript e uma API intuitiva.`,
+    },
+    vuetify: {
+      title: 'Vuetify',
+      description: `Vuetify é uma biblioteca de componentes UI baseada em Material Design 
+        para Vue.js, que acelera o desenvolvimento com componentes prontos e customizáveis.`,
+    },
+    typescript: {
+      title: 'TypeScript',
+      description: `TypeScript é um superset do JavaScript que adiciona tipagem estática, 
+          aumentando a segurança e a manutenibilidade do código.`,
+    },
+    vite: {
+      title: 'Vite',
+      description: `Vite é uma ferramenta de build rápida que oferece recarga instantânea 
+          e otimizações para projetos Vue e outros frameworks modernos.`,
+    },
     sass: {
       title: 'SASS',
       description: `O SASS é uma linguagem de extensão do CSS, a sigla 
@@ -177,11 +207,11 @@ export const pt_BR = {
       description: `JavaScript é uma linguagem de programação interpretada estruturada, 
           de script em alto nível com tipagem dinâmica fraca e multiparadigma.`,
     },
-    nodejs: {
-      title: 'NodeJs',
-      description: `Node.js é um software de código aberto, multiplataforma, 
-      baseado no interpretador V8 do Google e que permite a execução de códigos 
-      JavaScript fora de um navegador web.`,
+    git: {
+      title: 'Git',
+      description: `Git é um sistema de controle de versões distribuído, 
+      usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o
+      histórico de edições de qualquer tipo de arquivo.`,
     },
     jest: {
       title: 'Jest',
@@ -193,17 +223,77 @@ export const pt_BR = {
       description: `Cypress é uma ferramenta de teste de front-end 
       para aplicativos da web.`,
     },
-    git: {
-      title: 'Git',
-      description: `Git é um sistema de controle de versões distribuído, 
-      usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o
-      histórico de edições de qualquer tipo de arquivo.`,
+    storybook: {
+      title: 'Storybook',
+      description: `Storybook é uma ferramenta para desenvolver, documentar e testar 
+          componentes de UI de forma isolada.`,
+    },
+    elasticsearch: {
+      title: 'ElasticSearch',
+      description: `ElasticSearch é um motor de busca e análise distribuído, 
+          usado para indexar e consultar grandes volumes de dados em tempo real.`,
+    },
+    jira: {
+      title: 'Jira',
+      description: `Jira é uma ferramenta de gestão de projetos e rastreamento de issues, 
+          muito utilizada em times ágeis.`,
+    },
+    trello: {
+      title: 'Trello',
+      description: `Trello é uma ferramenta visual de gestão de tarefas baseada em quadros, 
+          ideal para organização de fluxos de trabalho.`,
+    },
+    miro: {
+      title: 'Miro',
+      description: `Miro é uma plataforma colaborativa de quadro branco online, 
+          usada para brainstorming, diagramação e planejamento.`,
+    },
+    figma: {
+      title: 'Figma',
+      description: `Figma é uma ferramenta de design de interface e prototipagem baseada na nuvem, 
+          que facilita a colaboração entre designers e desenvolvedores.`,
     },
     cleancode: {
       title: 'Clean Code',
       description: `Clean Code ou código limpo se refere a um conjunto de boas práticas na 
       escrita de software que você pode aplicar para obter uma maior legibilidade 
       e manutenabilidade do seu código.`,
+    },
+    nodejs: {
+      title: 'NodeJs',
+      description: `Node.js é um software de código aberto, multiplataforma, 
+      baseado no interpretador V8 do Google e que permite a execução de códigos 
+      JavaScript fora de um navegador web.`,
+    },
+    java: {
+      title: 'Java',
+      description: `Java é uma linguagem de programação orientada a objetos amplamente utilizada 
+          no desenvolvimento de aplicações corporativas e back-end.`,
+    },
+    springboot: {
+      title: 'Spring Boot',
+      description: `Spring Boot é um framework que simplifica a criação de aplicações Java 
+          com configurações automáticas e prontas para produção.`,
+    },
+    laravel: {
+      title: 'Laravel',
+      description: `Laravel é um framework PHP para desenvolvimento web, 
+          com foco em expressividade e produtividade.`,
+    },
+    drizzle: {
+      title: 'Drizzle ORM',
+      description: `Drizzle ORM é um ORM leve e tipado para Node.js, 
+          que facilita a interação com bancos de dados SQL.`,
+    },
+    mysql: {
+      title: 'MySQL',
+      description: `MySQL é um sistema de gerenciamento de banco de dados relacional 
+          de código aberto, amplamente utilizado.`,
+    },
+    sqlserver: {
+      title: 'SQL Server',
+      description: `SQL Server é um sistema de gerenciamento de banco de dados relacional 
+          da Microsoft, usado em ambientes corporativos.`,
     },
   },
 };
