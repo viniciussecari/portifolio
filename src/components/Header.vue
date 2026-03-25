@@ -18,10 +18,11 @@
       </ul>
     </nav>
 
-    <div class="md:hidden visible entrance_by_left">
+    <div class="md:hidden visible">
       <button
         @click="toggleMenu = !toggleMenu"
         id="menu-toggle" 
+        aria-label="Abrir menu"
         class="text-white focus:outline-none"
       >
         <svg
@@ -48,7 +49,7 @@
             flex justify-center items-center bg-black"
     >
       <ul 
-        class="entrance_by_left w-full h-full p-2 relative flex flex-col gap-8"
+        class="w-full h-full p-2 relative flex flex-col gap-8"
       >
         <li 
           class="my-2 relative list-none"  

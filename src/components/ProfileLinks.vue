@@ -12,7 +12,7 @@
     </section>
 
     <section class="mt-2 max-sm:flex-col md:flex justify-center">
-      <div class="entrance_by_left lg:mr-2 mr-0">
+      <div class="lg:mr-2 mr-0">
         <h3>
           <a class="link__box" href="https://github.com/viniciussecari">
             <img class="bg-cover w-4 h-4 mr-2" src="../assets/icons/github-icon.svg" alt="" />
@@ -21,7 +21,7 @@
         </h3>
       </div>
 
-      <div class="entrance_by_right lg:ml-2 ml-0">
+      <div class="lg:ml-2 ml-0">
         <h3>
           <a class="link__box" :href="`https://www.linkedin.com/in/vinicius-secari/${lang}`">
             <img class="bg-cover w-4 h-4 mr-2" src="../assets/icons/linkedin-icon.svg" alt="" />

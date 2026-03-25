@@ -1,5 +1,7 @@
 <template>
-  <section id="experiences" class="flex items-center flex-col scroll-smooth text-left">
+  <section
+    id="experiences"
+    class="flex items-center flex-col scroll-smooth text-left">
     <h1 class="mb-4 text-5xl font-bold text-cyan-500">
       {{ $t('sections.experiences.title') }}
     </h1>
@@ -15,6 +17,10 @@
 </template>
 
 <script setup>
-import ExperienceItem from './ExperienceItem.vue';
 import { EXPERIENCES } from '../utils/constants/EXPERIENCES.js';
+import { defineAsyncComponent } from 'vue';
+
+const experienceItem = defineAsyncComponent(() =>
+  import('./ExperienceItem.vue'),
+);
 </script>

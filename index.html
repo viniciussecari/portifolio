@@ -3,13 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/dist/output.css" rel="stylesheet" />
-    <link rel="shortcut icon" href="./src/assets/icons/dev.svg" type="image/x-icon">
+    <meta
+      name="description"
+      content="Portfólio de Vinicius Secari, Desenvolvedor Front-End, Desenvolvedor Vue.js, Desenvolvedor Especialista Vue.js" />
+    <link
+      rel="shortcut icon"
+      href="/dev.svg"
+      type="image/x-icon" />
 
     <title>Portifólio - Vinicius Secari</title>
   </head>
   <body>
-    <div id="app" class="font-mono flex flex-col justify-start pt-16 pb-8 px-4 md:px-8 w-full overflow-x-hidden scroll-smooth"></div>
+    <div
+      id="app"
+      class="font-mono flex flex-col justify-start pt-16 pb-8 px-4 md:px-8 w-full overflow-x-hidden scroll-smooth">
+      <style>
+        .loading-inicial {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          background: #000;
+        }
+        .spinner {
+          border: 4px solid rgba(0, 0, 0, 0.1);
+          border-left-color: #3b82f6;
+          border-radius: 50%;
+          width: 40px;
+          height: 40px;
+          animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+      </style>
+      <div class="loading-inicial">
+        <div class="spinner"></div>
+      </div>
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

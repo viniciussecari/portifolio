@@ -1,19 +1,25 @@
 <template>
-  <Header />
+  <main>
+    <Header />
 
-  <profile-header />
+    <profile-header />
 
-  <divider />
+    <divider />
 
-  <profile-content />
+    <profile-content />
 
-  <created-by />
+    <created-by />
+  </main>
 </template>
 
 <script setup>
+import { defineAsyncComponent } from 'vue';
+
 import Header from './components/Header.vue';
-import Divider from './components/Divider.vue';
-import CreatedBy from './components/CreatedBy.vue';
 import ProfileHeader from './components/ProfileHeader.vue';
-import ProfileContent from './components/ProfileContent.vue';
+
+
+const createdBy = defineAsyncComponent(() => import('./components/CreatedBy.vue'));
+const divider = defineAsyncComponent(() => import('./components/Divider.vue'));
+const profileContent = defineAsyncComponent(() => import('./components/ProfileContent.vue'));
 </script>
