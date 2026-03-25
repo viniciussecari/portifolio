@@ -23,4 +23,12 @@ export const COURSES = [
     title: 'Módulo intermediário em Programação com C',
     location: 'Intellectuale',
   },
+  {
+    title: 'API RESTful avançada com Spring Boot e Java 8',
+    location: 'Udemy',
+  },
+  {
+    title: 'API RESTful com Spring Boot e Java 8 - Guia de Referência',
+    location: 'Udemy',
+  },
 ];

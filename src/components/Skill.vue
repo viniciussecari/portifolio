@@ -2,13 +2,12 @@
   <div class="entrance_colors skill__box box">
     <img
       class="bg-cover w-20 h-20 mb-10"
-      :src="props.item.icon"
-      :alt="`${props.item.title}-icon`" 
-    />
+      :src="props.item?.icon"
+      :alt="`${props.item?.title}-icon`" />
 
     <div>
-      <h2>{{ $t(`skills.${formatTitle(props.item.title)}.title`) }}</h2>
-      <h3>{{ $t(`skills.${formatTitle(props.item.title)}.description`) }}</h3>
+      <h2>{{ $t(`skills.${formatTitle(props.item?.title)}.title`) }}</h2>
+      <h3>{{ $t(`skills.${formatTitle(props.item?.title)}.description`) }}</h3>
     </div>
   </div>
 </template>
@@ -22,11 +21,8 @@ const props = defineProps({
 });
 
 const formatTitle = (title) => {
-  return title
-    .split('')
-    .filter((el) => el !== ' ')
-    .join('')
-    .toLowerCase();
+  if (!title) return '-';
+  return title.replace(/\s+/g, '').toLowerCase();
 };
 </script>
 
